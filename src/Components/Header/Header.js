@@ -1,9 +1,12 @@
 import React from 'react'
-import NavbarBrand from 'react-bootstrap/NavbarBrand/package.json'
+import NavbarBrand from 'react-bootstrap/NavbarBrand'
+import   './Header.css'
+import Container from "react-bootstrap/Container";
 function Header() {
     return (
         <>
-          <NavbarBrand bg = "info"  >
+          <NavbarBrand   className ='Content' >
+
 
           </NavbarBrand>
 

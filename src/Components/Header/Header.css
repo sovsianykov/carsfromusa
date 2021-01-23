@@ -1,0 +1,14 @@
+.Content {
+    background: #07316b;
+   width:  100%;
+
+    height: 70px;
+    color: #ffebcd;
+    padding: 5px 50px;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
