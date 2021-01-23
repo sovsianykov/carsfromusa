@@ -19,7 +19,7 @@
 .btn-group {
     margin-top: 30px;
     padding: 10px 0;
-
+    width: 100%;
   box-shadow: 0 5px 10px 0 rgba(21, 20, 20, 0.3);
 }
 
@@ -60,7 +60,7 @@
     transform: translateY(0);
   }
 
-  img , .pic {
+  img  {
     height: auto;
     transform: translateZ(0);
     display: block;
@@ -95,4 +95,8 @@
       transform 500ms cubic-bezier(0.2, 1, 0.3, 1);
     transition-delay: 300ms;
   }
+Form {
+    margin-left: 50px;
+
+}
 
