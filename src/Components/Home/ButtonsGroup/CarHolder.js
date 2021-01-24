@@ -1,6 +1,4 @@
 import React from "react";
-import Gasoline from "../../../assets/images/gs.jpg";
-import Col from "react-bootstrap/Col";
 const CarHolder = (props)=> {
   const btn = document.querySelector('#root');
   btn.addEventListener('click', (e) => {
@@ -16,7 +14,7 @@ const CarHolder = (props)=> {
 
                <img src={props.src} alt="sed"/>
 
-               {/*<p className="carHolder-text">GASOLINE</p>*/}
+               <p className="carHolder-text">GASOLINE</p>
            </div>
            <input type='checkbox' id={props.id}/>
        </>

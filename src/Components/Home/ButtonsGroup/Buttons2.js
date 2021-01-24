@@ -1,5 +1,4 @@
 import React ,{Component} from "react";
-import ButtonGroup from 'react-bootstrap/ButtonGroup'
 import CarHolder from "./CarHolder";
 import Col from 'react-bootstrap/Col'
 import './Butons.css'
@@ -26,13 +25,6 @@ class Buttons2 extends Component {
                 <Row >
 
                     <Col md={{ span: 2, offset: 2 }}>
-                        {/*<div className="carHolder" >*/}
-
-                        {/*    <img src={Gasoline} alt="sed"/>*/}
-
-                        {/*    <p className="carHolder-text">GASOLINE</p>*/}
-                        {/*</div>*/}
-                        {/*<input type='checkbox' id='gasoline'/>*/}
                         <CarHolder src = {this.state.src[0].src1}/>
                     </Col>
 
