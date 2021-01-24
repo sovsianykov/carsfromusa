@@ -12,9 +12,9 @@ import Row from "react-bootstrap/Row";
 class Buttons extends Component {
     render() {
         return (
-            <ButtonGroup aria-label="Basic example">
-                <Row>
-               <Col lg='2'>
+            <>
+                <Row >
+               <Col md={2}>
                    <div className="carHolder" >
 
                        <img src={Sedan} alt="sed"/>
@@ -23,44 +23,49 @@ class Buttons extends Component {
                    </div>
                    <input type='checkbox' id='sedan'/>
                </Col>
-                    <Col lg='2'>
-                        <div className="carHolder" >
+                    <Col lg={2}>
+
+                    <div className="carHolder" >
                             <img src={Universal} alt="sed"/>
                             <p className="carHolder-text">UNIVERSAL</p>
                         </div>
                         <input type='checkbox' id='universal'/>
                     </Col>
-                    <Col lg='2'>
-                        <div className="carHolder" >
+                    <Col lg={2}>
+
+                    <div className="carHolder" >
                             <img src={Coupe} alt="sed"/>
                             <p className="carHolder-text">COUPE</p>
 
                         </div>
                         <input type='checkbox' id='coupe'/>
                     </Col>
-                    <Col lg='2'>
-                        <div className="carHolder" >
+                    <Col lg={2}>
+
+                    <div className="carHolder" >
                             <img src={Pickup} alt="sed"/>
                             <p className="carHolder-text">PICKUP</p>
                         </div>
                         <input type='checkbox' id='pickup'/>
                     </Col>
-                    <Col lg='2'>
-                        <div className="carHolder" >
+                    <Col lg={2}>
+
+                    <div className="carHolder" >
                             <img src={Micro} alt="sed"/>
                             <p className="carHolder-text">MICRO</p>
                         </div>
                         <input type='checkbox' id='micro'/>
                     </Col>
-                    <Col lg='2'>
-                        <div className="carHolder" >
+                    <Col lg={2}>
+
+                    <div className="carHolder" >
                             <img src={Hatchback} alt="sed"/>
                             <p className="carHolder-text">HATCHBACK</p>
                         </div>
                         <input type='checkbox' id='hatchback'/>
                     </Col>
                 </Row>
-            </ButtonGroup>
+            </>
         )
     }
 

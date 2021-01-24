@@ -17,10 +17,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-.Container {
+.container1 {
   margin: 0 auto;
-
+  width: 1600px;
   color: aliceblue;
+
 }
 h1 ,h2 {
   color: #07316b;

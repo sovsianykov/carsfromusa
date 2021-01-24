@@ -7,7 +7,7 @@ import {Form} from "react-bootstrap";
 class ButtonsInput3 extends Component {
     render() {
         return (
-            <ButtonGroup aria-label="Basic example ">
+            <>
                 <Row sm={12}>
                     <Col sm= '4' >
                         <Form>
@@ -51,7 +51,7 @@ class ButtonsInput3 extends Component {
                         </Form.Text>
                     </Col>
                 </Row>
-            </ButtonGroup>
+            </>
         )
     }
 
