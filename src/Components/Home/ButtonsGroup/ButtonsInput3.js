@@ -7,9 +7,9 @@ import {Form} from "react-bootstrap";
 class ButtonsInput3 extends Component {
     render() {
         return (
-            <>
-                <Row >
-                    <Col lg= {3} >
+            <ButtonGroup aria-label="Basic example ">
+                <Row sm={12}>
+                    <Col sm= '4' >
                         <Form>
                         <Form.Group controlId="SelectCustomSizeLg">
                             <Form.Label>engine volume</Form.Label>
@@ -23,8 +23,8 @@ class ButtonsInput3 extends Component {
                         </Form.Group>
                     </Form>
                     </Col>
-                    {/*<Col lg={1}></Col>*/}
-                    <Col lg= {3} >
+                    {/*<Col lg='1'></Col>*/}
+                    <Col sm={4}>
                     <Form>
                             <Form.Group controlId="exampleForm.SelectCustomSizeLg">
                                 <Form.Label>production year</Form.Label>
@@ -39,8 +39,7 @@ class ButtonsInput3 extends Component {
                         </Form>
                     </Col>
                     {/*<Col lg=''></Col>*/}
-                    <Col lg= {5} >
-
+                    <Col sm={4}>
                     <Form.Label htmlFor="inputprice">auction price</Form.Label>
                         <Form.Control
                             type="text"
@@ -52,7 +51,7 @@ class ButtonsInput3 extends Component {
                         </Form.Text>
                     </Col>
                 </Row>
-            </>
+            </ButtonGroup>
         )
     }
 

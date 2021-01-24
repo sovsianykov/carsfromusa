@@ -9,10 +9,10 @@ import Row from "react-bootstrap/Row";
 class Buttons2 extends Component {
     render() {
         return (
-            <>
+            <ButtonGroup aria-label="Basic example">
                 <Row >
 
-                    <Col md={3}>
+                    <Col md={{ span: 2, offset: 2 }}>
                         <div className="carHolder" >
 
                             <img src={Gasoline} alt="sed"/>
@@ -22,7 +22,7 @@ class Buttons2 extends Component {
                         <input type='checkbox' id='gasoline'/>
                     </Col>
 
-                    <Col md={3}>
+                    <Col md={{ span: 2, offset: 2 }}>
                         <div className="carHolder" >
                             <img src={Diesel} alt="sed"/>
                             <p className="carHolder-text">DIESEL</p>
@@ -30,7 +30,7 @@ class Buttons2 extends Component {
                         <input type='checkbox' id='diesel'/>
                     </Col>
 
-                    <Col md={5}>
+                    <Col md={{ span: 2, offset: 2 }}>
                         <div className="carHolder" >
                             <img src={Electro} alt="sed"/>
                             <p className="carHolder-text">ELECTRO</p>
@@ -39,7 +39,7 @@ class Buttons2 extends Component {
                         <input type='checkbox' id='electro'/>
                     </Col>
                 </Row>
-            </>
+            </ButtonGroup>
         )
     }
 

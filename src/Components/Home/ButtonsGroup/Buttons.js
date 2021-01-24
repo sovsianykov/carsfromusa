@@ -12,7 +12,7 @@ import Row from "react-bootstrap/Row";
 class Buttons extends Component {
     render() {
         return (
-            <>
+            <ButtonGroup aria-label="Basic example">
                 <Row>
                <Col lg='2'>
                    <div className="carHolder" >
@@ -60,7 +60,7 @@ class Buttons extends Component {
                         <input type='checkbox' id='hatchback'/>
                     </Col>
                 </Row>
-            </>
+            </ButtonGroup>
         )
     }
 

@@ -7,11 +7,8 @@
 }
  input {
     position: relative;
-    right: -60px;
+    right: -10px;
      background: #88eed0;
-}
-input#gasoline, input#diesel {
-    right: -60px;
 }
 .carHolder img {
   width: 100%;
@@ -19,15 +16,11 @@ input#gasoline, input#diesel {
   display: block;
 }
 
-.btn-group  {
+.btn-group {
     margin-top: 30px;
     padding: 10px 0;
     width: 100%;
   box-shadow: 0 5px 10px 0 rgba(21, 20, 20, 0.3);
-
-}
-.custom-select {
-    height: 40px;
 }
 
 .carHolder {
