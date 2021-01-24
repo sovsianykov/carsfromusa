@@ -70,7 +70,7 @@
 
 .carHolder:hover img
  {
-    transform: scale(1.1);
+    transform: scale(1.05);
     /*border: 2px solid #2D2D44 ;*/
     opacity: 1;
 
