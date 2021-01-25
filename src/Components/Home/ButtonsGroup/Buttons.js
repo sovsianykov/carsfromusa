@@ -8,9 +8,6 @@ import Micro from "../../../assets/images/micro.jpeg";
 import Pickup from "../../../assets/images/pickup.jpeg";
 import Universal from "../../../assets/images/jeep.jpeg";
 import Row from "react-bootstrap/Row";
-import Gasoline from "../../../assets/images/gs.jpg";
-import Diesel from "../../../assets/images/ds.jpg";
-import Electro from "../../../assets/images/el.jpg";
 import CarHolder from "./CarHolder";
 class Buttons extends Component {
   state = {
@@ -58,7 +55,8 @@ class Buttons extends Component {
           <Col md={2}>
             <CarHolder id={this.state.cars[0].id} src={this.state.cars[0].srcs}  />
             <input type='checkbox' onChange={this.selectPics.bind(this)} />
-            <p>sedan</p>
+
+
           </Col>
           <Col md={2}>
             <CarHolder src={this.state.cars[1].srcu} id={this.state.cars[1].id} />

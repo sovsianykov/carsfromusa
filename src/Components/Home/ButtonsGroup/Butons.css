@@ -4,7 +4,7 @@
     border-radius: 7px;
     padding: 1px;
     margin: 0 5px;
-    background: #ececf1;
+    background: #dedbdb;
     transition: .3s ease-in-out;
 
 }
@@ -12,6 +12,7 @@
     position: relative;
     right: -10px;
      background: #88eed0;
+     display: inline-block !important;
 
 }
 .carHolder img {
@@ -46,7 +47,7 @@
 .carHolder {
     position: relative;
     /*background: #87ddd2;*/
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 /*.carHolder::after {*/
 /*    content: "";*/
@@ -80,7 +81,7 @@
 
 
 
-.carHolder:hover .carHolder-text {
+.carHolder:hover .carHolder-text  {
     opacity: 1;
     transform: translateY(0);
   }
@@ -106,16 +107,16 @@
 
 .carHolder-text {
     position: absolute;
-    top: 80%;
+    top: 95%;
     left: 0;
     bottom: 0;
     right: 0;
     opacity: 0;
     text-align: center;
-    z-index: 3;
+    z-index: 333;
     font-weight: 600;
-    text-shadow: 1px 0 10px #f3f5f4;
-    color: #222121;
+    /*text-shadow: 1px 0 10px #eeeaea;*/
+    color: #07316b;
     transform: translateY(-20%) ;
     transition: opacity 500ms cubic-bezier(0.2, 1, 0.3, 1),
       transform 500ms cubic-bezier(0.2, 1, 0.3, 1);
@@ -124,6 +125,10 @@
 
   }
 
+h4 {
+
+    color: #2D2D44;
+}
 
 Form {
     margin-left: 50px;

@@ -13,11 +13,11 @@ class ButtonsInput3 extends Component {
                         <Form.Group controlId="SelectCustomSizeLg">
                             <Form.Label>engine volume</Form.Label>
                             <Form.Control as="select" size="lg" custom>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
+                                <option>1.7</option>
+                                <option>1.8</option>
+                                <option>1.9</option>
+                                <option>2.4</option>
+                                <option>5.8</option>
                             </Form.Control>
                         </Form.Group>
                     </Form>
@@ -28,11 +28,11 @@ class ButtonsInput3 extends Component {
                             <Form.Group controlId="exampleForm.SelectCustomSizeLg">
                                 <Form.Label>production year</Form.Label>
                                 <Form.Control as="select" size="lg" custom>
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
+                                    <option>2015</option>
+                                    <option>2016</option>
+                                    <option>2017</option>
+                                    <option>2018</option>
+                                    <option>2019</option>
                                 </Form.Control>
                             </Form.Group>
                         </Form>

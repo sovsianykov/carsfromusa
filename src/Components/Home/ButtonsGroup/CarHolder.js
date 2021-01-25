@@ -1,14 +1,13 @@
 import React from "react";
-import Col from "react-bootstrap/Col";
 const CarHolder = (props)=> {
-  const  selectPic= () => {
-        let  pic= document.querySelector('img');
-
-        pic.classList.toggle('active1')
-        console.log('checked')
-
-
-    }
+  // const  selectPic= () => {
+  //       let  pic= document.querySelector('img');
+  //
+  //       pic.classList.toggle('active1')
+  //       console.log('checked')
+  //
+  //
+  //   }
 
 
 
@@ -19,6 +18,7 @@ const CarHolder = (props)=> {
                     id={props.id}
                     alt="sed"
                />
+               <p className='carHolder-text'>{props.id}</p>
            </div>
            {/*<input type='checkbox' onChange={selectPic.bind()} />*/}
 
