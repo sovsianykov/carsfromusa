@@ -8,7 +8,7 @@ class ButtonsInput3 extends Component {
     render() {
         return (
             <>
-                <Row >
+                <Row lg={12}>
                     <Col lg= {3} >
                         <Form>
                         <Form.Group controlId="SelectCustomSizeLg">
@@ -38,18 +38,20 @@ class ButtonsInput3 extends Component {
                             </Form.Group>
                         </Form>
                     </Col>
-                    {/*<Col lg=''></Col>*/}
+                    {/*<Col lg='1'></Col>*/}
                     <Col lg= {5} >
+                        <Form.Group controlId='Example'>
+                            <Form.Label htmlFor="inputprice">auction price</Form.Label>
+                            <Form.Control
+                                type="text"
+                                id="axp"
+                                aria-describedby="auxprice"
+                            />
+                            <Form.Text id="axp" muted>
 
-                    <Form.Label htmlFor="inputprice">auction price</Form.Label>
-                        <Form.Control
-                            type="text"
-                            id="auxprice"
-                            aria-describedby="auxprice"
-                        />
-                        <Form.Text id="axp" muted>
+                            </Form.Text>
+                        </Form.Group>
 
-                        </Form.Text>
                     </Col>
                 </Row>
             </>

@@ -8,7 +8,7 @@
  input {
     position: relative;
     right: -60px;
-     background: #88eed0;
+     background: #084a9d;
 }
 input#gasoline, input#diesel {
     right: -60px;
@@ -32,7 +32,7 @@ input#gasoline, input#diesel {
 
 .carHolder {
     position: relative;
-    background: #87ddd2;
+    background: #d6d6e5;
     overflow: hidden;
 }
 .carHolder::after {
@@ -95,7 +95,7 @@ input#gasoline, input#diesel {
     opacity: 0;
     text-align: center;
     z-index: 1;
-    text-shadow: 1px 0 10px #2b9188;
+    text-shadow: 0 0 5px #959bb5;
     color: #fff;
     transform: translateY(-20%);
     transition: opacity 500ms cubic-bezier(0.2, 1, 0.3, 1),
@@ -103,7 +103,7 @@ input#gasoline, input#diesel {
     transition-delay: 300ms;
   }
 Form {
-    margin-left: 50px;
+    /*margin-left: 50px;*/
 
 }
 
