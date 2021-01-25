@@ -53,35 +53,35 @@ class Buttons extends Component {
       <>
         <Row>
           <Col md={2}>
-            <CarHolder id={this.state.cars[0].id} src={this.state.cars[0].srcs}  />
-            <input type='checkbox' onChange={this.selectPics.bind(this)} />
+            <CarHolder id={this.state.cars[0].id} src={this.state.cars[0].srcs} onClick = {this.selectPics.bind(this)} />
+            {/*<input type='checkbox' onChange={this.selectPics.bind(this)} />*/}
 
 
           </Col>
           <Col md={2}>
-            <CarHolder src={this.state.cars[1].srcu} id={this.state.cars[1].id} />
-            <input type='checkbox' onChange={this.selectPicu.bind(this)} />
+            <CarHolder src={this.state.cars[1].srcu} id={this.state.cars[1].id}  onClick = {this.selectPicu.bind(this)}/>
+            {/*<input type='checkbox' onChange={this.selectPicu.bind(this)} />*/}
 
 
           </Col>
           <Col md={2}>
-            <CarHolder src={this.state.cars[2].srcc} id={this.state.cars[2].id} />
-            <input type='checkbox' onChange={this.selectPicc.bind(this)} />
+            <CarHolder src={this.state.cars[2].srcc} id={this.state.cars[2].id}  onClick = {this.selectPicc.bind(this)} />
+            {/*<input type='checkbox' onChange={this.selectPicc.bind(this)} />*/}
 
           </Col>
           <Col md={2}>
-            <CarHolder src={this.state.cars[3].srcp} id={this.state.cars[3].id} />
-            <input type='checkbox' onChange={this.selectPicp.bind(this)} />
+            <CarHolder src={this.state.cars[3].srcp} id={this.state.cars[3].id}  onClick = {this.selectPicp.bind(this)} />
+            {/*<input type='checkbox' onChange={this.selectPicp.bind(this)} />*/}
 
           </Col>
           <Col md={2}>
-            <CarHolder src={this.state.cars[4].srcm}  id={this.state.cars[4].id}/>
-            <input type='checkbox' onChange={this.selectPicm.bind(this)} />
+            <CarHolder src={this.state.cars[4].srcm}  id={this.state.cars[4].id}  onClick = {this.selectPicm.bind(this)}/>
+            {/*<input type='checkbox' onChange={this.selectPicm.bind(this)} />*/}
 
           </Col>
           <Col md={2}>
-            <CarHolder src={this.state.cars[5].srch} id={this.state.cars[5].id} />
-            <input type='checkbox' onChange={this.selectPich.bind(this)} />
+            <CarHolder src={this.state.cars[5].srch} id={this.state.cars[5].id}  onClick = {this.selectPich.bind(this)} />
+            {/*<input type='checkbox' onChange={this.selectPich.bind(this)} />*/}
 
           </Col>
         </Row>

@@ -14,11 +14,11 @@ const CarHolder = (props)=> {
     return (
        <>
            <div className="carHolder" >
-               <img src={props.src}
+               <img src={props.src} onClick={props.onClick}
                     id={props.id}
                     alt="sed"
                />
-               <p className='carHolder-text'>{props.id}</p>
+               <p className='carHolder-text'>{props.id} </p>
            </div>
            {/*<input type='checkbox' onChange={selectPic.bind()} />*/}
 

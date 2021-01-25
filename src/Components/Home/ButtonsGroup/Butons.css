@@ -32,7 +32,7 @@
     height: 100%;
     display: block;
     transform: scale(1.1);
-    /*border: 2px solid #2D2D44 ;*/
+    border: .001rem solid #757474;
     opacity: 1;
 
 }
@@ -82,10 +82,10 @@
 
 
 
-.carHolder:hover .carHolder-text  {
-    opacity: 1;
-    transform: translateY(0);
-  }
+/*.carHolder:hover .carHolder-text  {*/
+/*    opacity: 1;*/
+/*    transform: translateY(0);*/
+/*  }*/
 
   img  {
     height: auto;
