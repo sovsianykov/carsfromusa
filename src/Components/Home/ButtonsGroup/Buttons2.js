@@ -12,7 +12,10 @@ class Buttons2 extends Component {
   carHolder = document.querySelector('.cardHolder')
     state = {
       src : [
-          { src1 : Gasoline }
+          { src1 : Gasoline },
+          { src2 : Diesel },
+          { src3 : Electro }
+
 
       ]
     }
@@ -29,20 +32,12 @@ class Buttons2 extends Component {
                     </Col>
 
                     <Col md={{ span: 2, offset: 2 }}>
-                        <div className="carHolder"   >
-                            <img src={Diesel} alt="sed"/>
-                            <p className="carHolder-text">DIESEL</p>
-                        </div>
-                        <input type='checkbox' id='diesel'/>
+                        <CarHolder src = {this.state.src[1].src2}/>
                     </Col>
 
                     <Col md={{ span: 2, offset: 2 }}>
-                        <div className="carHolder" >
-                            <img src={Electro} alt="sed"/>
-                            <p className="carHolder-text">ELECTRO</p>
+                        <CarHolder src = {this.state.src[2].src3}/>
 
-                        </div>
-                        <input type='checkbox' id='electro'/>
                     </Col>
                 </Row>
             </>

@@ -1,22 +1,27 @@
 import React from "react";
+import Col from "react-bootstrap/Col";
 const CarHolder = (props)=> {
-  const btn = document.querySelector('#root');
-  btn.addEventListener('click', (e) => {
-        e.target.classList.add('active1')
-        console.log('hello')
-    })
+  const  selectPic= () => {
+        let  pic= document.querySelector('img');
+
+        pic.classList.toggle('active1')
+        console.log('checked')
+
+
+    }
 
 
 
     return (
        <>
            <div className="carHolder" >
-
-               <img src={props.src} alt="sed"/>
-
-               <p className="carHolder-text">GASOLINE</p>
+               <img src={props.src}
+                    id={props.id}
+                    alt="sed"
+               />
            </div>
-           <input type='checkbox' id={props.id}/>
+           {/*<input type='checkbox' onChange={selectPic.bind()} />*/}
+
        </>
 
     )
