@@ -12,12 +12,12 @@ import CarHolder from "./CarHolder";
 class Buttons extends Component {
   state = {
     cars: [
-      { srcs: Sedan , id:"sedan", class:"sedan"},
-      { srcu: Universal,id:"universal", class:"universal" },
-      { srcc: Coupe , id: 'coupe', class: 'coupe'},
-      { srcp: Pickup ,id: 'pickup' ,class: 'pickup' },
-      { srcm: Micro , id: 'micro',class: 'micro' },
-      { srch: Hatchback , id: 'hatchback',class: 'hatchback'}
+      { srcs: Sedan , id:"sedan", class:"sedan" , price : 5000},
+      { srcu: Universal,id:"universal", class:"universal" ,price : 6000},
+      { srcc: Coupe , id: 'coupe', class: 'coupe' , price: 3000},
+      { srcp: Pickup ,id: 'pickup' ,class: 'pickup', price: 2500 },
+      { srcm: Micro , id: 'micro',class: 'micro' , price: 3700},
+      { srch: Hatchback , id: 'hatchback',class: 'hatchback',price: 4000}
     ]
   }
    // pic= document.querySelector('#car');

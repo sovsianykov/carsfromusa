@@ -12,9 +12,9 @@ class Buttons2 extends Component {
   carHolder = document.querySelector('.cardHolder')
     state = {
       fuel : [
-          { src1 : Gasoline, id: 'gasoline' },
-          { src2 : Diesel , id : 'diesel'},
-          { src3 : Electro, id: 'electro'  }
+          { src1 : Gasoline, id: 'gasoline', price:1000 },
+          { src2 : Diesel , id : 'diesel',  price:1300},
+          { src3 : Electro, id: 'electro',  price:1500  }
 
 
       ]
