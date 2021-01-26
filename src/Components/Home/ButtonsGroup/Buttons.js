@@ -12,27 +12,27 @@ import CarHolder from "./CarHolder";
 class Buttons extends Component {
   state = {
     cars: [
-      { srcs: Sedan , id:"sedan"},
-      { srcu: Universal,id:"universal" },
-      { srcc: Coupe , id: 'coupe'},
-      { srcp: Pickup ,id: 'pickup'},
-      { srcm: Micro , id: 'micro'},
-      { srch: Hatchback , id: 'hatchback'}
+      { srcs: Sedan , id:"sedan", class:"sedan"},
+      { srcu: Universal,id:"universal", class:"universal" },
+      { srcc: Coupe , id: 'coupe', class: 'coupe'},
+      { srcp: Pickup ,id: 'pickup' ,class: 'pickup' },
+      { srcm: Micro , id: 'micro',class: 'micro' },
+      { srch: Hatchback , id: 'hatchback',class: 'hatchback'}
     ]
   }
    // pic= document.querySelector('#car');
   selectPics= () => {
-    let img = document.querySelector('img#sedan');
+  let img = document.querySelector('img#sedan');
   img.classList.toggle('active1')
-  }
-  selectPicu= () => {
-    let img = document.querySelector('img#universal');
-    img.classList.toggle('active1')
-  }
-  selectPicc= () => {
-    let img = document.querySelector('img#coupe');
-    img.classList.toggle('active1')
-  }
+}
+selectPicu= () => {
+  let img = document.querySelector('img#universal');
+  img.classList.toggle('active1')
+}
+selectPicc= () => {
+  let img = document.querySelector('img#coupe');
+  img.classList.toggle('active1')
+}
   selectPicp= () => {
     let img = document.querySelector('img#pickup');
     img.classList.toggle('active1')
@@ -53,34 +53,40 @@ class Buttons extends Component {
       <>
         <Row>
           <Col md={2}>
-            <CarHolder id={this.state.cars[0].id} src={this.state.cars[0].srcs} onClick = {this.selectPics.bind(this)} />
+            <CarHolder id={this.state.cars[0].id} src={this.state.cars[0].srcs} onClick = {this.selectPics.bind(this)}
+                 class ={this.state.cars[0].class} />
             {/*<input type='checkbox' onChange={this.selectPics.bind(this)} />*/}
 
 
           </Col>
           <Col md={2}>
-            <CarHolder src={this.state.cars[1].srcu} id={this.state.cars[1].id}  onClick = {this.selectPicu.bind(this)}/>
+            <CarHolder src={this.state.cars[1].srcu} id={this.state.cars[1].id}  onClick = {this.selectPicu.bind(this)}
+                       class ={this.state.cars[1].class}/>
             {/*<input type='checkbox' onChange={this.selectPicu.bind(this)} />*/}
 
 
           </Col>
           <Col md={2}>
-            <CarHolder src={this.state.cars[2].srcc} id={this.state.cars[2].id}  onClick = {this.selectPicc.bind(this)} />
+            <CarHolder src={this.state.cars[2].srcc} id={this.state.cars[2].id}  onClick = {this.selectPicc.bind(this)}
+                       class ={this.state.cars[2].class}/>
             {/*<input type='checkbox' onChange={this.selectPicc.bind(this)} />*/}
 
           </Col>
           <Col md={2}>
-            <CarHolder src={this.state.cars[3].srcp} id={this.state.cars[3].id}  onClick = {this.selectPicp.bind(this)} />
+            <CarHolder src={this.state.cars[3].srcp} id={this.state.cars[3].id}  onClick = {this.selectPicp.bind(this)}
+                       class ={this.state.cars[3].class}/>
             {/*<input type='checkbox' onChange={this.selectPicp.bind(this)} />*/}
 
           </Col>
           <Col md={2}>
-            <CarHolder src={this.state.cars[4].srcm}  id={this.state.cars[4].id}  onClick = {this.selectPicm.bind(this)}/>
+            <CarHolder src={this.state.cars[4].srcm}  id={this.state.cars[4].id}  onClick = {this.selectPicm.bind(this)}
+                       class ={this.state.cars[4].class}/>
             {/*<input type='checkbox' onChange={this.selectPicm.bind(this)} />*/}
 
           </Col>
           <Col md={2}>
-            <CarHolder src={this.state.cars[5].srch} id={this.state.cars[5].id}  onClick = {this.selectPich.bind(this)} />
+            <CarHolder src={this.state.cars[5].srch} id={this.state.cars[5].id}  onClick = {this.selectPich.bind(this)}
+                       class ={this.state.cars[5].class}/>
             {/*<input type='checkbox' onChange={this.selectPich.bind(this)} />*/}
 
           </Col>

@@ -3,6 +3,7 @@ import Col from 'react-bootstrap/Col'
 import './Butons.css'
 import Row from "react-bootstrap/Row";
 import {Form} from "react-bootstrap";
+
 class ButtonsInput3 extends Component {
     render() {
         return (
