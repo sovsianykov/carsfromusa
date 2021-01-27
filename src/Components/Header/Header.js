@@ -4,7 +4,7 @@ import   './Header.css'
 function Header() {
     return (
         <>
-          <Navbar   className ='Content' >
+          <Navbar   className ='Content1' >
 
 
           </Navbar>

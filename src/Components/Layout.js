@@ -1,11 +1,11 @@
 import React from "react";
-import aux from '../Hoc/Aux'
+import Aux from '../Hoc/Aux'
 import Home from "./Home/Home";
 const Layout =(props)=>(
-    <aux>
-        <main className='Content'>
+    <Aux>
+        <main className='Content1'>
             {props.children}
         </main>
-    </aux>
+    </Aux>
 )
 export default Layout
